@@ -1,4 +1,4 @@
-# Problem Set X: [Name of the Problem]
+# Problem Set 2: Valid Parentheses
 ## Problem Description
 [Include a concise description of the problem]
 ## Solution Overview
