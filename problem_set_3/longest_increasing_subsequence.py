@@ -4,7 +4,7 @@ def lengthOfLIS(nums):
         return 0
     
     # to store increasing subsequences of different lengths
-    tails = [2]
+    tails = []
     for num in nums:
         # Use binary search to find the insertion point of the current number
         left = 0
@@ -23,7 +23,6 @@ def lengthOfLIS(nums):
             #  replace the existing value if not
             tails[left] = num
             
-    [ 2, 5, 7, 10, 20]
     # The length of LIS
     return len(tails)
 
